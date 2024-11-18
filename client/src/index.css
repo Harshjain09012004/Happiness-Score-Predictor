@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input, select {
+    @apply rounded-xl bg-slate-500/30 py-2 px-10 appearance-none
+}
+
+.submit {
+    @apply bg-red-500 text-white rounded-3xl py-2 px-16;
+
+    &:active {
+        @apply scale-105;
+    }
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
